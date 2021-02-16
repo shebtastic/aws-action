@@ -1,0 +1,5 @@
+name: 'AWS CLI'
+description: 'Export aws CLI to all following steps'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

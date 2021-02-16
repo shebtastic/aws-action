@@ -1,0 +1,28 @@
+{
+  "name": "gactions-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js --license licenses.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shebtastic/gactions-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shebtastic/gactions-action/issues"
+  },
+  "homepage": "https://github.com/shebtastic/gactions-action#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@actions/core": "^1.2.5",
+    "@actions/exec": "^1.0.4",
+    "@actions/github": "^4.0.0",
+    "@vercel/ncc": "^0.24.1"
+  }
+}
